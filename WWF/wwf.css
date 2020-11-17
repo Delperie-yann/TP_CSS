@@ -1,0 +1,74 @@
+
+
+section{
+display: grid;
+border: 1px solid;
+
+
+}
+#up, #mid, #end {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#manger{
+    z-index: 2;
+   position: absolute;
+   color: white;
+   text-align: center;
+   padding: 140px 195px;
+   border: solid;
+}
+
+#opti{ z-index: 2;
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 490px;
+    padding: 140px 115px;
+    border: 3px solid black;
+   
+
+}
+#depla{ z-index: 2;
+    position: absolute;
+    color: white;
+    padding: 100px 110px;
+    border: solid;
+   
+}
+#dechet {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    padding: 140px 195px;
+    border: solid;
+    
+}
+
+#num{
+    z-index: 2;
+    position: absolute;
+    color: white;
+    padding: 140px 195px;
+    border: solid;
+   
+}
+
+#amenagement{ z-index: 2;
+    position: absolute;
+    color: white;
+    padding: 140px 195px;
+    border: solid;
+   
+}
+
+#conso{ z-index: 2;
+    position: absolute;
+    color: white;
+    padding: 140px 195px;
+    border: solid;
+      
+}

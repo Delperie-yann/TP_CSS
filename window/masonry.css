@@ -1,0 +1,129 @@
+#conteneur{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:"a a a a b b b b c c p q "
+                        "a a a a b b b b c c r s"
+                        "d d e e f f f f g g h h"
+                        "d d e e f f f f g g h h"
+                        "i i j j k k k k l l m m"
+                        "i i j j k k k k l l m m"
+                        "n n n n k k k k o o o o"
+                        "n n n n k k k k o o o o";
+   
+    height: 500px;
+    width: 750px;
+    text-align: center;
+    grid-gap : 2%;
+}
+#conteneur div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+#Courrier{
+grid-area: a;
+
+background-color: #7ea6e1 ;
+text-align: center;
+
+
+}
+#calendrier{
+grid-area: b;
+
+
+}
+#photo{
+grid-area: c;
+background-color:  darkgreen;
+
+}
+#vide1{
+grid-area: p;
+
+background-color: red;
+
+}
+#vide2{
+grid-area: q;
+
+background-color: orangered;
+
+}
+#vide3{
+grid-area: r;
+
+background-color: green;
+
+}
+#vide4{
+grid-area: s;
+
+background-color: purple;
+
+}
+#skype{
+grid-area: d;
+
+border : 1px solid black;
+
+}
+#contacts{
+    grid-area: e;
+   
+    border : 1px solid black;
+   
+    
+}
+#bourse{
+    grid-area: f;
+    
+}
+#explorer{
+    grid-area: g ;
+    border : 1px solid black;
+}
+#aide{
+    grid-area: h;
+    border : 1px solid black;
+}
+#listeDeLecture{
+    grid-area: i;
+    border : 1px solid black;
+}
+#skydrive{
+    grid-area: j;
+    border : 1px solid black;
+}
+#videG{
+    grid-area: k;
+    border : 1px solid black;
+}
+#carte{
+    grid-area: l;
+    border : 1px solid black;
+}
+#sante{
+    grid-area: m;
+    border : 1px solid black;
+}
+#bureau{
+    grid-area: n;
+}
+#actu{
+    grid-area: o;
+}
+.rouge{
+    background-color:#fe0000;
+}
+.bleu {
+    background-color:#3399fe;
+}
+.vert {
+    background-color: #02cc00;
+}
+.violet{
+    background-color: #9933ff;
+}
